@@ -5,6 +5,8 @@ using namespace std;
 
 class book
 {
+	public:
+	
 	string author;
 	string bookname;
 	int parts;

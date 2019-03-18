@@ -27,7 +27,7 @@ class book
 
 int main() {
     string author1;
-    cout <<"Hello, dude, I want you to show my first programm code with class and its method.\n";
+    cout <<"Hello, dude, I want to show you my first programm code with class and its method.\n";
     cout <<"Warning, you have to enter the name of needed author without any spaces in the input field! You can choose those two from the following strings of my code.\n";
     cout << "Enter the author: ";
     cin >> author1;

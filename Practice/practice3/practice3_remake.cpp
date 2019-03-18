@@ -36,7 +36,7 @@ cout <<"Введите автора ";
 cin >>author1;
 
 
-	book Firstbook {"Рэй","451 по Фаренгейту",3, 246};
+	book Firstbook {"Рэй Брэдбери","451 по Фаренгейту",3, 246};
 	book Secondbook {"М.Ю. Лермонтов", "Герой нашего времени",2, 150};
 	
 if (author1 == Firstbook.author) {

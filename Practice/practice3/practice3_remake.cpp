@@ -30,8 +30,7 @@ class book
 int main() {
     string author1;
 	setlocale(LC_ALL, "Russian");
-    cout << "Практическая работа №3"<<endl;
-    cout << "Выполнил cтудент группы ИКБО-03-18 Кириенко Андрей"<<endl;
+   
 
 cout <<"Введите автора ";
 cin >>author1;

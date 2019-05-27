@@ -29,7 +29,7 @@ class Cat : public Animal, public Pet
 public: Cat(string a, string b, string c, int d) : Animal(a), Pet(b, c, d) {}
 		void info()
 		{
-			cout << "Кошка" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык :" << skill << endl << "Возраст: " << age;
+			cout << "Кошка" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык: " << skill << endl << "Возраст: " << age;
 			cout << "\n";
 		}
 };
@@ -39,7 +39,7 @@ class Dog : public Animal, public Pet
 public: Dog(string a, string b, string c, int d) : Animal(a), Pet(b, c, d) {}
 		void info()
 		{
-			cout << "Собака" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык :" << skill << endl << "Возраст: " << age;
+			cout << "Собака" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык: " << skill << endl << "Возраст: " << age;
 			cout << "\n";
 		}
 };
@@ -49,7 +49,7 @@ class Parrot : public Animal, public Pet
 public: Parrot(string a, string b, string c, int d) : Animal(a), Pet(b, c, d) {}
 		void info()
 		{
-			cout << "Попугай" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык :" << skill << endl << "Возраст: " << age;
+			cout << "Попугай" << endl << "Звук: " << sound << endl << "Кличка: " << name << endl << "Навык: " << skill << endl << "Возраст: " << age;
 			cout << "\n";
 		}
 };
